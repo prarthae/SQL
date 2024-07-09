@@ -1,11 +1,6 @@
 create database exercise1;
 use  exercise1;
-drop table dependents;
-drop table employees; 
-drop table Dept;
-drop table locations;
-drop table countries;
-drop table regions;
+
 -- creating tables
 
 create table regions (region_id varchar(30) primary key,region_name varchar(30));
